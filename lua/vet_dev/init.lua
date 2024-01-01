@@ -2,6 +2,7 @@ print("Hello Vet Dev!")
 
 require("vet_dev.set")
 require("vet_dev.remap")
+require("vet_dev.packer")
 
 local augroup = vim.api.nvim_create_augroup
 local VetDevGroup = augroup('VetDev', {})
